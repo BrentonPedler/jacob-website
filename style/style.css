@@ -20,6 +20,10 @@ text-decoration: none;
 color: inherit;
 }
 
+a:visited {
+    color:#222831;
+}
+
 img {
     display: block;
     min-width: 300px;
@@ -369,6 +373,8 @@ textarea {
 }
 
 form > button {
+    border: 5px solid #30475E;
+    border-radius: 20px;
     margin-top: 50px;
     padding: 10px 25px;
     width: fit-content;
@@ -378,7 +384,8 @@ form > button {
     background: #30475E;
     border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     order: 2;
     width: 50%;
 }
