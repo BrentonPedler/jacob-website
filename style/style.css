@@ -20,10 +20,6 @@ text-decoration: none;
 color: inherit;
 }
 
-a:visited {
-    color:#222831;
-}
-
 img {
     display: block;
     min-width: 300px;
