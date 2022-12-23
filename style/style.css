@@ -212,9 +212,14 @@ header {
 /* ABOUT STYLING */
 
 #about {
+    /* background-image: url("../assets/white-texture.png");
+    background-size: contain; */
+    padding-bottom: 150px;
+}
+
+#about > div {
     width: 80%;
     margin: 0 auto;
-    padding-bottom: 150px;
 }
 
 #about > h2 {
@@ -261,6 +266,8 @@ header {
 
 #certifications {
     background: #F05454;
+    border: 10px solid #30475E;
+    border-radius: 25px;
     padding: 50px 0px;
     text-align: center;
 }
@@ -335,24 +342,29 @@ form {
 }
 
 label {
-    padding: 10px 0px;
+    font-size: 25px;
+    padding: 25px 0px 5px 0px;
 }
 
 input {
     background: #DDDDDD;
-    padding: 10px;
+    border: 5px solid #30475E;
+    border-radius: 20px;
+    padding: 20px 10px;
     width: 90%;
 }
 
 textarea {
     background: #DDDDDD;
+    border: 5px solid #30475E;
+    border-radius: 15px;
     resize: none;
     padding: 10px;
     width: 90%;
 }
 
 form > button {
-    margin-top: 25px;
+    margin-top: 50px;
     padding: 10px 25px;
     width: fit-content;
 }
