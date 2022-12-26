@@ -477,6 +477,9 @@ footer {
 }
 
 @media (max-width: 700px) {
+    .menu-x {
+        overflow: visible;
+    }
     #about > div {
         width: 95%;
     }
@@ -485,6 +488,12 @@ footer {
     }
     #certifications > div > p {
         padding: 25px 5px;
+    }
+    #testimonials {
+        width: 95%;
+    }
+    #testimonials > h2 {
+        text-align: center;
     }
     #contact {
         width: 95%;
