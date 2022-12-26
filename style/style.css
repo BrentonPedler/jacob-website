@@ -11,6 +11,10 @@ margin: 0;
 padding: 0;
 }
 
+section {
+    overflow-x: hidden;
+}
+
 button,
 select {
   color: inherit; /* 2 */
@@ -212,6 +216,7 @@ header {
     border-radius: 30% 70% 53% 47% / 30% 30% 70% 70%;
     margin-right: 5%;
     order: 2;
+    overflow: hidden;
     padding: 50px;
 }
 
@@ -251,8 +256,20 @@ header {
     width: 60%;
 }
 
+.about-text-one > p, .about-text-two > p {
+    line-height: 35px;
+    margin: 0 auto;
+    width: 90%;
+}
+
 .about-action-call {
+    margin: 0 auto;
     padding-top: 25px;
+    width: 90%;
+}
+
+.about-action-call > p {
+    line-height: 35px;
 }
 
 .about-action-call > button {
@@ -432,6 +449,12 @@ footer {
         text-align: center;
         width: 100%;
     }
+    .about-text-one > p, .about-text-two > p {
+        width: 100%;
+    }
+    .about-action-call {
+        width: 100%;
+    }
     .about-text-one {
         order: 2;
     }
@@ -455,6 +478,9 @@ footer {
 
 @media (max-width: 700px) {
     #about > div {
+        width: 95%;
+    }
+    #contact {
         width: 95%;
     }
 }
