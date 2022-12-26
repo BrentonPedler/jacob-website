@@ -11,6 +11,12 @@ margin: 0;
 padding: 0;
 }
 
+button,
+select {
+  color: inherit; /* 2 */
+  text-transform: none; /* 1 */
+}
+
 li {
 list-style: none;
 }
