@@ -189,6 +189,7 @@ header {
 }
   
 .header-content-container {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -286,8 +287,10 @@ header {
 }
 
 .about-img-one > img, .about-img-two > img {
-    border-radius: 50px;
+    border: 3px solid #30475E;
+    border-radius: 50%;
     object-fit: contain;
+    padding: 50px;
     width: 80%;
 }
 
@@ -425,8 +428,10 @@ form > div > a > i:hover {
 }
 
 #contact > div > div > img {
-    border-radius: 50px;
+    border: 3px solid #30475E;
+    border-radius: 50%;
     object-fit: contain;
+    padding: 50px;
     width: 60%;
 }
 
