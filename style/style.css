@@ -330,7 +330,7 @@ header {
     padding: 25px;
 }
 
-#testimonials > div > div:nth-child(2) {
+#testimonials > div > div:nth-child(even) {
     padding: 25px 0px;
 }
 
@@ -398,6 +398,20 @@ form > button {
     margin-top: 50px;
     padding: 10px 25px;
     width: fit-content;
+}
+
+form > div {
+    margin-top: 50px;
+}
+
+form > div > a > i {
+    color: #30475E;
+    margin-right: 25px;
+    transition: scale ease-out .25s;
+}
+
+form > div > a > i:hover {
+    scale: 1.2;
 }
 
 #contact > div > div {
