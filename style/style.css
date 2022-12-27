@@ -287,7 +287,7 @@ header {
 }
 
 .about-img-one > img, .about-img-two > img {
-    border: 3px solid #30475E;
+    border: 3px dotted #30475E;
     border-radius: 50%;
     object-fit: contain;
     padding: 50px;
@@ -428,7 +428,7 @@ form > div > a > i:hover {
 }
 
 #contact > div > div > img {
-    border: 3px solid #30475E;
+    border: 3px dotted #30475E;
     border-radius: 50%;
     object-fit: contain;
     padding: 50px;
