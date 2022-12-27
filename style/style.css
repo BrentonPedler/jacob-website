@@ -221,7 +221,7 @@ header {
 }
 
 .header-img-container > img {
-    border-radius: 50px;
+    border-radius: 50%;
     object-fit: contain;
     width: 100%;
 }
@@ -477,6 +477,12 @@ footer {
 }
 
 @media (max-width: 700px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 30px;
+    }
     .menu-x {
         overflow: visible;
     }
